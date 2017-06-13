@@ -10,6 +10,8 @@ A collection of sample C++ and python packages to use as a base for other ROS no
 ### plume_sampler
 A system to perform automatic air sampling when it detects that it is within a smoke plume
 
+### marker_localization
+A few small ROS nodes identify ARUCO markers, determine a map of the environment, and determine a relative pose of a the camera
  
 ## UAS Software 
 ### robin
@@ -20,9 +22,6 @@ A position controller for multirotors in an arbitrary local frame
 
 ### breadcrumb
 A navigation controller with waypoint, failsafe, and external input capabilities.
-
-### marker_localization
-A stack to identify ARUCO markers and determine a map of the environment and a relative pose of a the camera
 
 # Other Tools
 ### teleop_offboard_attitude
