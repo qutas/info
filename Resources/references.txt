@@ -1,3 +1,4 @@
 AMPD14_DischargeCurve.jpg	https://img.rcgroups.com/http://www.rcuniverse.com/magazine/reviews/1183/AMPD14_DischargeCurve.jpg?h=48MwHmPihmngOXLS6R1vWw
 ros_concepts1.png	http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/images/ros_concepts1.png
 occupancy.png https://www.researchgate.net/profile/Myles_Mcnally/publication/228377121/figure/fig1/AS:301984998543363@1449010242692/Figure-1-An-Occupancy-Grid.png
+pid_control.png https://www.dewesoft.com/assets/img/pro/uploads/PIDfront.PNG
