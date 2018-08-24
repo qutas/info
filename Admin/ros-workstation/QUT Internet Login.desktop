@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=QUT Internet Login
+Comment=Opens up Firefox to prompt the user to authenticate on the QUT network
+Exec=firefox https://ias-user.qut.edu.au/login/
+Icon=/usr/share/ros-workstation/qut-logo.png
+Path=
+Terminal=false
+StartupNotify=false
