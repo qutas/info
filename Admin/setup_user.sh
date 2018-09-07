@@ -19,5 +19,5 @@ sudo usermod -aG $(cat groups_user.txt) $NEW_USER
 sudo chsh -s /bin/bash $NEW_USER
 sudo su $NEW_USER -c /usr/share/ros-workstation/setup-catkin-workspace.sh
 sudo su $NEW_USER -c /usr/share/ros-workstation/setup-catkin-workspace.sh
-cp /usr/share/ros-workstation/QUT\ Internet\ Login.desktop /usr/share/ros-workstation/QGroundControl.desktop /home/$NEW_USER/Desktop
+sudo cp /usr/share/ros-workstation/QUT\ Internet\ Login.desktop /usr/share/ros-workstation/QGroundControl.desktop /home/$NEW_USER/Desktop
 sudo chown $NEW_USER /home/$NEW_USER/Desktop/*
