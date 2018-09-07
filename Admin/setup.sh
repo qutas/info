@@ -1,16 +1,20 @@
 #!/bin/bash
 
-mkdir -p ~/Workspace/
-git clone https://github.com/qutas/info)
-cd ~/Workspace/info/Admin
+sudo -v
 
 sudo apt purge $(cat rdeps.txt)
 sudo apt install $(cat deps.txt)
 sudo apt install $(cat deps_ros.txt)
 
+sudo cp ./etc/chrony/chrony.conf /etc/chrony/chrony.conf
+sudo systemctl restart chrony.service
+
 sudo usermod -aG $(cat ./groups_admin.txt) quas
 
+xfce4-panel --quit
+pkill xfconfd
 cp ./home/quas ~/
+xfce4-panel &
 
 sudo mkdir /usr/share/ros-workstation #Create shared driver folder
 cp ./usr/share/ros-workstation /usr/share/ros-workstation

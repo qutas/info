@@ -5,6 +5,7 @@ NEW_USER=$1
 if [[ -z $NEW_USER ]]
 then
 	echo "Error: No username specified!"
+	echo "Usage: ./setup_user.sh USERNAME"
 	exit
 fi
 
