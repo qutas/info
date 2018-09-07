@@ -1,2 +1,0 @@
-quas : quas adm dialout cdrom sudo dip plugdev lpadmin sambashare
-uavusrgX : uavusrgX dialout dip video plugdev
