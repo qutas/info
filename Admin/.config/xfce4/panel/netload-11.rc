@@ -1,0 +1,14 @@
+Use_Label=false
+Show_Values=false
+Show_Bars=true
+Colorize_Values=false
+Color_In=#90EE90
+Color_Out=#1E90FF
+Text=Network
+Network_Device=eno1
+Max_In=4096
+Max_Out=4096
+Auto_Max=true
+Update_Interval=250
+Values_As_Bits=false
+

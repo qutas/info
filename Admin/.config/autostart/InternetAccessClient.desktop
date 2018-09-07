@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=QUT Internet Login
+Comment=Opens up Firefox to prompt the user to authenticate on the QUT network
+Exec=firefox https://ias-user.qut.edu.au/login/
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+

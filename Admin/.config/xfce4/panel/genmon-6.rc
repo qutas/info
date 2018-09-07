@@ -1,0 +1,6 @@
+Command=/usr/share/ros-workstation/wifi-client-checker.py
+UseLabel=1
+Text=WiFi Clients
+UpdatePeriod=10000
+Font=(default)
+
