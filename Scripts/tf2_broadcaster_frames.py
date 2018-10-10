@@ -11,7 +11,7 @@ from geometry_msgs.msg import PoseStamped, TransformStamped
 tfbr = None
 tfsbr = None
 
-uav_name = "uav"
+uav_name = "uavusr"
 camera_name = "camera"
 
 def send_tf_camera():
@@ -34,6 +34,8 @@ def send_tf_camera():
 	# Send the static transformation
 	tfsbr.sendTransform(t)
 
+"""
+This is step typically done by the same program that outputs the pose
 
 def callback_pose( msg_in ):
 	# Create a transform at the time
@@ -48,17 +50,19 @@ def callback_pose( msg_in ):
 
 	# Send the transformation
 	tfbr.sendTransform(t)
+"""
 
 if __name__ == '__main__':
 	rospy.init_node('tf2_broadcaster_frames')
 
 	# Setup pose subscriber
-	rospy.Subscriber('/emulated_uav/pose', PoseStamped, callback_pose)
+	# This functionality is provided by the emulator
+	#rospy.Subscriber('/emulated_uav/pose', PoseStamped, callback_pose)
 
 	# Setup tf2 broadcasters
 	#    Broadcaster sends a transformation that
 	#    can be found at specific time
-	tfbr = tf2_ros.TransformBroadcaster()
+	#tfbr = tf2_ros.TransformBroadcaster()
 	#    Static broadcaster sends a transformation
 	#    that is true for all time
 	tfsbr = tf2_ros.StaticTransformBroadcaster()
