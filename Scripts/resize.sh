@@ -38,9 +38,10 @@ do_resize() {
 	fi
 }
 
-export resize_fs
-export fdisk_first
-export do_resize
+export -f resize_fs
+export -f fdisk_first
+export -f do_resize
 
 #Ensure we're running as an admin
-sudo do_resize
+sudo bash -c "$(declare -f resize_fs fdisk_first do_resize); do_resize"
+
