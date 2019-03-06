@@ -38,5 +38,9 @@ do_resize() {
 	fi
 }
 
+export resize_fs
+export fdisk_first
+export do_resize
+
 #Ensure we're running as an admin
 sudo do_resize
