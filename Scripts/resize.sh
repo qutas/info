@@ -30,9 +30,13 @@ resize_fs() {
 	rm -rf /root/.resize
 }
 
+do_resize() {
+	if [ -f /root/.resize ]; then
+		resize_fs
+	else
+		fdisk_first
+	fi
+}
 
-if [ -f /root/.resize ]; then
-	resize_fs
-else
-	fdisk_first
-fi
+#Ensure we're running as an admin
+sudo do_resize
