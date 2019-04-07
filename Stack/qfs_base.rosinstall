@@ -1,0 +1,18 @@
+- git:
+    local-name: breadcrumb
+    uri: git@github.com:qutas/breadcrumb.git
+- git:
+    local-name: contrail
+    uri: git@github.com:qutas/contrail.git
+- git:
+    local-name: mavel
+    uri: git@github.com:qutas/mavel.git
+- git:
+    local-name: pid_controller_lib
+    uri: git@github.com:qutas/pid_controller_lib.git
+- git:
+    local-name: tinyspline_ros
+    uri: git@github.com:qutas/tinyspline_ros.git
+- git:
+    local-name: qutas_lab_450
+    uri: git@github.com:qutas/qutas_lab_450.git

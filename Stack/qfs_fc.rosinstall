@@ -1,0 +1,6 @@
+- git:
+    local-name: robin
+    uri: git@github.com:qutas/robin.git
+- git:
+    local-name: robin_gazebo
+    uri: git@github.com:qutas/robin_gazebo.git

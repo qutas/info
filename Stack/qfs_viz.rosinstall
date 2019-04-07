@@ -1,0 +1,12 @@
+- git:
+    local-name: rqt_eyedropper
+    uri: git@github.com:qutas/rqt_eyedropper.git
+- git:
+    local-name: rqt_mavros_gui
+    uri: http://github.com/qutas/rqt_mavros_gui
+- git:
+    local-name: rqt_generic_hud
+    uri: git@github.com:qutas/rqt_generic_hud.git
+- git:
+    local-name: rqt_robin_gcs
+    uri: git@github.com:qutas/rqt_robin_gcs.git
