@@ -1,15 +1,15 @@
 - git:
     local-name: egh450_path_planning
-    uri: git@github.com:qutas/egh450_path_planning.git
+    uri: https://github.com/qutas/egh450_path_planning.git
 - git:
     local-name: egh450_target_solvepnp
-    uri: git@github.com:qutas/egh450_target_solvepnp.git
+    uri: https://github.com/qutas/egh450_target_solvepnp.git
 - git:
     local-name: egh450_robin_servo_control
-    uri: git@github.com:qutas/egh450_robin_servo_control.git
+    uri: https://github.com/qutas/egh450_robin_servo_control.git
 - git:
     local-name: egh450_image_processor
-    uri: git@github.com:qutas/egh450_image_processor.git
+    uri: https://github.com/qutas/egh450_image_processor.git
 - git:
     local-name: egh450_navigation_interface
-    uri: git@github.com:qutas/egh450_navigation_interface.git
+    uri: https://github.com/qutas/egh450_navigation_interface.git
