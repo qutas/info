@@ -1,6 +1,6 @@
 - git:
     local-name: marker_localization
-    uri: git@github.com:qutas/marker_localization.git
+    uri: https://github.com/qutas/marker_localization.git
 - git:
     local-name: teleop_offboard_attitude
-    uri: git@github.com:qutas/teleop_offboard_attitude.git
+    uri: https://github.com/qutas/teleop_offboard_attitude.git
