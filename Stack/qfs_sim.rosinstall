@@ -1,6 +1,6 @@
 - git:
     local-name: uavtaq_emulator
-    uri: git@github.com:qutas/uavtaq_emulator.git
+    uri: https://github.com/qutas/uavtaq_emulator.git
 - git:
     local-name: uavusr_emulator
-    uri: git@github.com:qutas/uavusr_emulator.git
+    uri: https://github.com/qutas/uavusr_emulator.git
