@@ -28,7 +28,7 @@
    - Create an admin user named: `quas`
    - Make sure to enable "Require password to log in"
 
-3. Install VICON Server with Windows 10 (QUT OS image is fine)
+3. Install VICON Server with Windows 10 (QUT OS image is fine, PC needs 2 ethernet adapters)
    - Name the PC: `vicon-server`
    - Install VICON Tracker 3.xx
    - Configure VICON Connection:
