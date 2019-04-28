@@ -32,7 +32,25 @@
    - Name the PC: `vicon-server`
    - Install VICON Tracker 3.xx
    - Configure VICON Connection:
-     - TODO!
+     - `Control Panel > View Network Connections > Ethernet 2 (Intel(R) PRO/1000 GT Desktop Adapter) > Properties > Configure > Advanced` ([source](https://docs.vicon.com/display/Connect/Configuring+network+card+settings#Configuringnetworkcardsettings-Configureadvancedadaptersettings))
+       - `Jumbo Packet`: 9014 Bytes
+       - `Receive Buffer`: 2048
+       - `Interrupt Moderation`: Disabled
+       - `Interrupt Moderation Rate`: Off
+       - `Receive Side Scaling` (if present): Enabled
+       - `Receive Side Scaling Queues` (if present): (Maximum value)
+     - `Control Panel > View Network Connections > Ethernet 2 (Intel(R) PRO/1000 GT Desktop Adapter) > Properties`
+     - `This connection uses the following items`
+       - [x] QoS Packet Scheduler
+       - [x] Internet Protocol Version 4 (TCP/IPv4)
+       - [x] Internet Protocol Version 6 (TCP/IPv6)
+       - [ ] (Everything else)
+     - `Internet Protocol Version 4 (TCP/IPv4) > Properties`
+       - `IP Address`: 192.168.10.1
+       - `Subnet mask`: 255.255.254.0
+       - `Default Gateway`: (Blank)
+       - `Preferred DNS server`: (Blank)
+       - `Alternate DNS server`: (Blank)
 
 4. Telementry Setup
    - RFD900 Pair (running [SiK 2.0 Firmware](https://github.com/LorenzMeier/SiK))
