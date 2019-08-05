@@ -70,7 +70,12 @@
      13. `MANCHESTER`: 0
      14. `RTSCTS`: 0
      15. `MAX_WINDOW`: 131
-   - Connections
+   - Paramter Setting Tool (Only do after flashed with SiK 2.0, repeat for all radios):
+   ```sh
+   cd  ./telem_tools/
+   ./param_replicate.py --port /dev/ttyUSB0 --baudrate 57600 --newparams ./qfs_telem.params
+   ```
+    - Connections
      - GCS: USB Serial Converter
      - Airborne: Connect to Telemetry 1 on Autopilot
 
