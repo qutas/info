@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/ros-workstation/catkin_drv/src
+cd /usr/share/ros-workstation/catkin_drv/src
 catkin_init_workspace
 cd ..
 catkin_make
