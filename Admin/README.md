@@ -139,7 +139,7 @@ Setting up the shared workspace:
 ```sh
 cd ~/Workspace/info/Admin
 ./setup_drv.sh
-echo "source /usr/share/ros-workspace/catkin_drv/devel/setup.bash" >> ~/.bashrc
+echo "source /usr/share/ros-workstation/catkin_drv/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
