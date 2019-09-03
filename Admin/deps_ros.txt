@@ -26,3 +26,4 @@ ros-kinetic-rqt-multiplot
 ros-kinetic-tf2
 ros-kinetic-tf2-eigen
 ros-kinetic-vrpn-client-ros
+ros-kinetic-video-stream-opencv
