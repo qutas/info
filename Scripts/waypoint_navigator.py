@@ -22,7 +22,7 @@ if __name__ == '__main__':
 	nom_lvel = 0.1
 
 	# Setup ROS and wait for contrail to connect
-	rospy.init_node('load_waypoints', anonymous=True)
+	rospy.init_node('waypoint_navigator', anonymous=True)
 
 	rospy.loginfo("Waiting for contrail to connect...")
 	client_base = actionlib.SimpleActionClient("/emulated_uav/mavel/contrail", TrajectoryAction)
