@@ -15,7 +15,7 @@ if __name__ == '__main__':
 	rospy.init_node('synchronizer_py')
 
 	sub_pose = message_filters.Subscriber('/emulated_uav/pose', PoseStamped, queue_size=10)
-	sub_image = message_filters.Subscriber('/emulator/image/compressed', CompressedImage, queue_size=10)
+	sub_image = message_filters.Subscriber('/emulated_uav/image/compressed', CompressedImage, queue_size=10)
 	ts = message_filters.ApproximateTimeSynchronizer([sub_pose, sub_image], 10, 0.1, allow_headerless=True)
 	ts.registerCallback(callback)
 
