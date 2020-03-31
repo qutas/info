@@ -1,0 +1,63 @@
+- git:
+    local-name: breadcrumb
+    uri: https://github.com/qutas/breadcrumb.git
+- git:
+    local-name: contrail
+    uri: https://github.com/qutas/contrail.git
+- git:
+    local-name: mavel
+    uri: https://github.com/qutas/mavel.git
+- git:
+    local-name: pid_controller_lib
+    uri: https://github.com/qutas/pid_controller_lib.git
+- git:
+    local-name: tinyspline_ros
+    uri: https://github.com/qutas/tinyspline_ros.git
+- git:
+    local-name: qutas_lab_450
+    uri: https://github.com/qutas/qutas_lab_450.git
+- git:
+    local-name: egh450_path_planning
+    uri: https://github.com/qutas/egh450_path_planning.git
+- git:
+    local-name: egh450_target_solvepnp
+    uri: https://github.com/qutas/egh450_target_solvepnp.git
+- git:
+    local-name: egh450_robin_servo_control
+    uri: https://github.com/qutas/egh450_robin_servo_control.git
+- git:
+    local-name: egh450_image_processor
+    uri: https://github.com/qutas/egh450_image_processor.git
+- git:
+    local-name: egh450_navigation_interface
+    uri: https://github.com/qutas/egh450_navigation_interface.git
+- git:
+    local-name: marker_localization
+    uri: https://github.com/qutas/marker_localization.git
+- git:
+    local-name: teleop_offboard_attitude
+    uri: https://github.com/qutas/teleop_offboard_attitude.git
+- git:
+    local-name: robin
+    uri: https://github.com/qutas/robin.git
+- git:
+    local-name: robin_gazebo
+    uri: https://github.com/qutas/robin_gazebo.git
+- git:
+    local-name: uavtaq_emulator
+    uri: https://github.com/qutas/uavtaq_emulator.git
+- git:
+    local-name: uavusr_emulator
+    uri: https://github.com/qutas/uavusr_emulator.git
+- git:
+    local-name: rqt_eyedropper
+    uri: https://github.com/qutas/rqt_eyedropper.git
+- git:
+    local-name: rqt_mavros_gui
+    uri: https://github.com/qutas/rqt_mavros_gui.git
+- git:
+    local-name: rqt_generic_hud
+    uri: https://github.com/qutas/rqt_generic_hud.git
+- git:
+    local-name: rqt_robin_gcs
+    uri: https://github.com/qutas/rqt_robin_gcs.git
