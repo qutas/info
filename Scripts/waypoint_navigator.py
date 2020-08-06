@@ -4,12 +4,12 @@ import sys
 from math import *
 
 import roslib
-roslib.load_manifest('contrail')
+roslib.load_manifest('contrail_manager')
 import rospy
 import actionlib
 from actionlib_msgs.msg import GoalStatus
 
-from contrail.msg import TrajectoryAction, TrajectoryGoal
+from contrail_manager.msg import TrajectoryAction, TrajectoryGoal
 from geometry_msgs.msg import Vector3
 
 if __name__ == '__main__':
