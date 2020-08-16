@@ -10,3 +10,6 @@
 - git:
     local-name: rqt_robin_gcs
     uri: https://github.com/qutas/rqt_robin_gcs.git
+- git:
+    local-name: rqt_quaternion_view
+    uri: https://github.com/qutas/rqt_quaternion_view.git
