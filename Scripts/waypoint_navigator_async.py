@@ -48,7 +48,7 @@ class AsyncNavigator():
 
 	def send_next_wp(self):
 		# Build new goal message
-		# https://github.com/qutas/contrail/blob/master/contrail/action/Trajectory.action
+		# https://github.com/qutas/contrail/blob/master/contrail_manager/action/Trajectory.action
 		goal_base = TrajectoryGoal()
 
 		# Create this segment based on the current counter
