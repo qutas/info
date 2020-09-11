@@ -36,7 +36,7 @@ if __name__ == '__main__':
 			rospy.loginfo("Performing segment: %i" % (i+1))
 
 			# Build new goal message
-			# https://github.com/qutas/contrail/blob/master/contrail/action/Trajectory.action
+			# https://github.com/qutas/contrail/blob/master/contrail_manager/action/Trajectory.action
 			goal_base = TrajectoryGoal()
 
 			# Create this segment using from the i'th set of waypoints
