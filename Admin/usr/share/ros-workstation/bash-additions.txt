@@ -5,4 +5,4 @@ export EDITOR=nano
 
 source /opt/ros/kinetic/setup.bash
 source /usr/share/ros-workstation/catkin_drv/devel/setup.bash
-
+source /usr/share/ros-workstation/disros
