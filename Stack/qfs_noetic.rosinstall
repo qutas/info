@@ -1,0 +1,30 @@
+- git:
+    local-name: breadcrumb
+    uri: https://github.com/qutas/breadcrumb.git
+- git:
+    local-name: spar
+    uri: https://github.com/qutas/spar.git
+- git:
+    local-name: qutas_lab_450
+    uri: https://github.com/qutas/qutas_lab_450.git
+- git:
+    local-name: rqt_generic_hud
+    uri: https://github.com/qutas/rqt_generic_hud.git
+- git:
+    local-name: rqt_mavros_gui
+    uri: https://github.com/qutas/rqt_mavros_gui.git
+- git:
+    local-name: rqt_eyedropper
+    uri: https://github.com/qutas/rqt_eyedropper.git
+- git:
+    local-name: rqt_quaternion_view
+    uri: https://github.com/qutas/rqt_quaternion_view.git
+- git:
+    local-name: uavasr_emulator
+    uri: https://github.com/qutas/uavasr_emulator.git
+- git:
+    local-name: egh450_target_solvepnp
+    uri: https://github.com/qutas/egh450_target_solvepnp.git
+- git:
+    local-name: egh450_image_processor
+    uri: https://github.com/qutas/egh450_image_processor.git
